@@ -16,7 +16,7 @@ struct LandmarkList: View {
                LandmarkRow(landmark: landmark)
             }
          }
-         .navigationBarTitle(Text(/*@START_MENU_TOKEN@*/"Landmarks"/*@END_MENU_TOKEN@*/))
+         .navigationBarTitle(Text("Landmarks"))
       }
    }
 }

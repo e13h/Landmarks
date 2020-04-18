@@ -15,16 +15,16 @@ struct LandmarkDetail: View {
       VStack {
          MapView(coordinate: landmark.locationCoordinate)
             .frame(height: 300.0)
-            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.top/*@END_MENU_TOKEN@*/)
+            .edgesIgnoringSafeArea(.top)
          
          CircleImage(image: landmark.image)
             .padding(.bottom, -130.0)
-            .offset(y: /*@START_MENU_TOKEN@*/-130.0/*@END_MENU_TOKEN@*/)
+            .offset(x: 0, y: -130.0)
          
          VStack(alignment: .leading) {
             Text(landmark.name)
                .font(.title)
-            HStack {
+            HStack(alignment: .top) {
                Text(landmark.park)
                   .font(.subheadline)
                Spacer()
