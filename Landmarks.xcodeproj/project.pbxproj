@@ -32,6 +32,7 @@
 		8452FDE9244954D00036EBF7 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8452FDDC244954D00036EBF7 /* rainbowlake.jpg */; };
 		8452FDEB244B5D030036EBF7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452FDEA244B5D030036EBF7 /* LandmarkList.swift */; };
 		8452FDF1244B6D1C0036EBF7 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8452FDF0244B6D1C0036EBF7 /* landmarkData.json */; };
+		8452FDF6244B77760036EBF7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452FDF5244B77760036EBF7 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		8452FDDC244954D00036EBF7 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		8452FDEA244B5D030036EBF7 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		8452FDF0244B6D1C0036EBF7 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		8452FDF5244B77760036EBF7 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8452FDF2244B6F8B0036EBF7 /* Supporting Views */,
 				840546EC24493D5D00EE7E92 /* AppDelegate.swift */,
+				8452FDF5244B77760036EBF7 /* UserData.swift */,
 				840546EE24493D5D00EE7E92 /* SceneDelegate.swift */,
 				8452FDEA244B5D030036EBF7 /* LandmarkList.swift */,
 				840546F024493D5D00EE7E92 /* LandmarkDetail.swift */,
@@ -248,6 +251,7 @@
 				8452FDC92449537D0036EBF7 /* LandmarkRow.swift in Sources */,
 				8452FDC3244949CF0036EBF7 /* MapView.swift in Sources */,
 				840546EF24493D5D00EE7E92 /* SceneDelegate.swift in Sources */,
+				8452FDF6244B77760036EBF7 /* UserData.swift in Sources */,
 				840546F124493D5D00EE7E92 /* LandmarkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
