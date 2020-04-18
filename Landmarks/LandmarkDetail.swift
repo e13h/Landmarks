@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
-    var body: some View {
+   var body: some View {
       VStack {
          MapView()
             .frame(height: 300.0)
@@ -34,12 +34,11 @@ struct LandmarkDetail: View {
          
          Spacer()
       }
-         
-    }
+   }
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
-    static var previews: some View {
-        LandmarkDetail()
-    }
+   static var previews: some View {
+      LandmarkDetail()
+   }
 }

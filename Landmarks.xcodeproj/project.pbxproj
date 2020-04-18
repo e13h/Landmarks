@@ -31,6 +31,7 @@
 		8452FDE7244954D00036EBF7 /* stmarylake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8452FDDA244954D00036EBF7 /* stmarylake.jpg */; };
 		8452FDE8244954D00036EBF7 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8452FDDB244954D00036EBF7 /* chilkoottrail.jpg */; };
 		8452FDE9244954D00036EBF7 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8452FDDC244954D00036EBF7 /* rainbowlake.jpg */; };
+		8452FDEB244B5D030036EBF7 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8452FDEA244B5D030036EBF7 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		8452FDDA244954D00036EBF7 /* stmarylake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stmarylake.jpg; sourceTree = "<group>"; };
 		8452FDDB244954D00036EBF7 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		8452FDDC244954D00036EBF7 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		8452FDEA244B5D030036EBF7 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				840546EC24493D5D00EE7E92 /* AppDelegate.swift */,
 				8452FDC82449537D0036EBF7 /* LandmarkRow.swift */,
 				840546EE24493D5D00EE7E92 /* SceneDelegate.swift */,
+				8452FDEA244B5D030036EBF7 /* LandmarkList.swift */,
 				840546F024493D5D00EE7E92 /* LandmarkDetail.swift */,
 				840546F224493D6000EE7E92 /* Assets.xcassets */,
 				84054702244942AA00EE7E92 /* CircleImage.swift */,
@@ -233,6 +236,7 @@
 				840546ED24493D5D00EE7E92 /* AppDelegate.swift in Sources */,
 				84054703244942AA00EE7E92 /* CircleImage.swift in Sources */,
 				8452FDCE244954C30036EBF7 /* Landmark.swift in Sources */,
+				8452FDEB244B5D030036EBF7 /* LandmarkList.swift in Sources */,
 				8452FDC92449537D0036EBF7 /* LandmarkRow.swift in Sources */,
 				8452FDC3244949CF0036EBF7 /* MapView.swift in Sources */,
 				840546EF24493D5D00EE7E92 /* SceneDelegate.swift in Sources */,
